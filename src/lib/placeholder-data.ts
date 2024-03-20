@@ -1,4 +1,4 @@
-import {Customer, Invoice} from "@/app/lib/definition";
+import {Customer, Invoice} from "@/lib/definition";
 
 const customers: Customer[] = [
     {

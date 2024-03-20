@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function DashboardPage() {
+export default function CustomerPage() {
     return (
         <>
             <p>Dashboard</p>
