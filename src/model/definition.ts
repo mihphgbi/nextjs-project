@@ -1,7 +1,8 @@
 export interface Customer {
     id: string;
     name: string;
-    mail: string;
+    email: string;
+    image_url: string;
 }
 export type Invoice = {
     id: string;
@@ -12,3 +13,7 @@ export type Invoice = {
     // It means that the "status" property can only be one of the two strings: 'pending' or 'paid'.
     status: 'pending' | 'paid';
 };
+export type Revenue = {
+    month: string;
+    revenue: number;
+}

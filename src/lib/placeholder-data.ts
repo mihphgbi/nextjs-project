@@ -4,12 +4,14 @@ const customers: Customer[] = [
     {
         id: '1',
         name: 'a',
-        mail: 'a@gmail.com'
+        email: 'a@gmail.com',
+        image_url: ''
     },
     {
         id: '2',
         name: 'b',
-        mail: 'b@gmail.com'
+        email: 'b@gmail.com',
+        image_url: ''
     },
 ];
 const invoices: Invoice[] = [
