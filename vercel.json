@@ -1,0 +1,10 @@
+{
+  "github": {
+    "enabled": false
+  },
+  "git": {
+    "deploymentEnabled": {
+      "master": false
+    }
+  }
+}
